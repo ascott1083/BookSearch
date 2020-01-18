@@ -1,8 +1,9 @@
 {
   "name": "booksearch",
+  "homepage": "https://github.com/ascott1083/BookSearch",
   "version": "1.0.0",
-  "description": "GoogleBookSearch",
-  "main": "index.js",
+  "description": "BookSearch",
+  "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
@@ -26,7 +27,6 @@
     "node": "10.15.1",
     "npm": "6.9.0"
   },
-  "homepage": "https://github.com/ascott1083/BookSearch",
   "dependencies": {
     "axios": "^0.19.1",
     "express": "^4.17.1",
